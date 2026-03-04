@@ -1,0 +1,13 @@
+YOLOv8n Model Conversion Status:
+=================================
+Original model: yolov8n.pt (5.36 MB)
+ONNX model: yolov8n.onnx (10.58 MB)
+
+Conversion attempts:
+1. Direct YOLO export to TFLite - Failed (TensorFlow compatibility)
+2. ONNX to TFLite via onnx-tf - Failed (Import issues)
+3. Command line tools - Failed (Requires SavedModel format)
+
+Recommendation:
+Use an online converter or downgrade TensorFlow to version 2.10.x
+The ONNX file is ready for conversion with compatible tools.

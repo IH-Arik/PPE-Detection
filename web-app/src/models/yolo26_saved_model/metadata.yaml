@@ -1,0 +1,32 @@
+description: Ultralytics YOLO26n model trained on /kaggle/working/PPEv5_v2-15/data.yaml
+author: Ultralytics
+date: '2026-02-26T04:53:43.861509'
+version: 8.4.12
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 320
+- 320
+names:
+  0: boots
+  1: glasses
+  2: gloves
+  3: helmet
+  4: no boots
+  5: no glasses
+  6: no gloves
+  7: no helmet
+  8: no vest
+  9: person
+  10: vest
+args:
+  batch: 1
+  fraction: 1.0
+  half: true
+  int8: false
+  nms: false
+channels: 3
+end2end: true
